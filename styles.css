@@ -8,6 +8,7 @@
 }
 :root {
   --button-color: #441660;
+  --base-color: #000000;
   --text-color: #000000;
   --hover-background: #191970;
   --hover-text: #f8f8ff;
@@ -27,7 +28,7 @@
   height: 100%;
   display: block;
   margin: 0 auto;
-  background-color: black;
+  background-color: var(--base-color);
 }
 
 .logo_container {
