@@ -172,11 +172,15 @@ footer {
   color: black;
   padding: 5px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 
   right: 0;
   left: 0;
   bottom: 0;
+}
+.line {
+  margin: 25px;
+  border-top: 1px solid #000000;
 }
 .wrapper {
   min-height: 100%;
@@ -184,9 +188,4 @@ footer {
   grid-template-rows: auto 1fr auto;
 }
 
-hr {
-  margin: 100px;
-  /* height: ; */
-  width: 100%;
-  padding: 0;
-}
+
